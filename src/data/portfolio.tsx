@@ -63,7 +63,7 @@ export const projects: Project[] = [
   },
   {
     title: 'NI recorder',
-    description: 'Rejestrowanie przebiegów czasowych z hardwaru NI. Karty pomiarowe: Sound-Vibration, Tensometryczne, Napięciowe.',
+    description: 'Rejestrowanie przebiegów czasowych z hardwaru NI. Karty pomiarowe: Sound-Vibration, Strain/Bridge, Voltage.',
     technologies: ['Python', 'NI-daqmx', 'PyQt',]
   },
   {
