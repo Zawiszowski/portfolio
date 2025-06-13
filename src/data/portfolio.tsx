@@ -48,7 +48,7 @@ export const skills: Skill[] = [
 export const projects: Project[] = [
   {
     title: 'Damper Force Management System',
-    description: 'Kompletny system zarządzania projektami z możliwością śledzenia sił tłumienia i analizą wskaźników tłumienia.',
+    description: 'Kompletny system zarządzania projektami z możliwością śledzenia sił tłumienia i analizy zdolnosci procesu.',
     technologies: ['Django', 'React', 'PostgreSQL', 'MongoDB', 'Docker', 'Nginx']
   },
   {
