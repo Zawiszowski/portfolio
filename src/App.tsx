@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 // import Footer from './components/Footer/Footer';
 import Navigation from './components/Nav/Nav';
 import Hero from './components/Hero/Hero';
+import Experience from './components/Exp/Experience';
 import { GlobalStyle } from './styles/GlobalStyles';
 import { Container } from './styles/Generic.styles';
 import { Footer } from './components/Footer/Footer.styles';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
       <Hero />
       <About />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
       <Footer>

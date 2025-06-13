@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
 
 
   return (
-    <Section id="projects" bg="#f8fafc">
+    <Section id="projects" >
       <Container>
         <SectionTitle>Projekty</SectionTitle>
         <Grid cols={1}>

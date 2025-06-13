@@ -33,6 +33,11 @@ const Navigation: React.FC = () => {
               </a>
             </NavLink>
             <NavLink>
+              <a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>
+                Doświadczenie
+              </a>
+            </NavLink>
+            <NavLink>
               <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>
                 Projekty
               </a>

@@ -4,6 +4,16 @@ export interface Skill {
   description: string;
 }
 
+export interface Experience {
+  company: string;
+  position: string;
+  period: string;
+  location: string;
+  description: Array<string>;
+  technologies: Array<string>;
+
+}
+
 export interface Project {
   title: string;
   description: string;

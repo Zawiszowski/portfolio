@@ -6,7 +6,7 @@ import { Container, SectionTitle, Section } from '../../styles/Generic.styles';
 
 export const Contact: React.FC = () => {
   return (
-    <Section id="contact">
+    <Section id="contact" bg="#f8fafc">
       <Container>
         <SectionTitle>Get In Touch</SectionTitle>
         <ContactDescription>

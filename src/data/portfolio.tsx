@@ -1,4 +1,4 @@
-import { type Skill, type Project, type ContactItem, type PersonalInfo } from "../types";
+import { type Skill, type Project, type ContactItem, type PersonalInfo, type Experience } from "../types";
 
 export const skills: Skill[] = [
   {
@@ -42,7 +42,73 @@ export const skills: Skill[] = [
     icon: '🐳',
     description: 'Containerization, Docker Compose'
   },
+  {
+    name: 'Other',
+    icon: '📦',
+    description: 'Nginx, Gitlab, Asana'
+  },
 
+];
+
+export const experiences: Experience[] = [
+  {
+    company: "BWI Poland Technologies",
+    position: "Software Engineer",
+    period: "2023 - obecnie",
+    location: "Kraków, Polska",
+    description: [
+      "Development of web applications for internal engineering purposes",
+      "Application for calculating physical characteristics of additional passive damper systems.",
+      "Application for determining the production process capability, including automatic data retrieval from measurement machines.",
+      "Application for tracking the condition and status of upper damper mounts used in NVH (Noise, Vibration, Harshness) testing, including image capture and stiffness characteristics.",
+      "Collaboration with the IT administration department to align the technological stack and prepare deployment versions.",
+      "Supervision and execution of measurements for brake systems and air suspension modules in the NVH domain.",
+      "Support in modal analysis of automotive component parts",
+      "Leading software development projects in a two/three person team",
+      "Development of desktop applications:",
+      "Post-processing of data and generation of ready-to-use reports"
+
+
+
+
+    ],
+    technologies: ["Django", "FastAPI", "React", "PostgreSQL", "Docker", "Kubernetes", "AWS"]
+  },
+  {
+    company: "BWI Poland Technologies",
+    position: "Test Engineer",
+    period: "2022 - 2023",
+    location: "Kraków, Polska",
+    description: [
+      "Development of software primarily related to workflow automation and data processing",
+      "Supervising passive damper testing within the field of Noise, Vibration, and Harshness",
+  
+    ],
+    technologies: ["Django", "React", "TypeScript", "Redis", "PostgreSQL", "Docker"]
+  },
+  {
+    company: "EC Test Systems",
+    position: "Application Engineer",
+    period: "2020 - 2022",
+    location: "Kraków, Polska",
+    description: [
+      "Technical support in selecting measurement technologies and proposing suitable solutions.",
+      "Designing and presenting technological solutions for piezoelectric sensors in collaboration with PCB Piezoelectronics Europe",
+      "Development of a mobile application for data acquisition and basic analysis using a piezoelectric sensor with an integrated measurement feed.",
+
+    ],
+    technologies: ["Java", "Android Studio"]
+  },
+  {
+    company: "AGH University of Science and Technology",
+    position: "Mechatronics",
+    period: "2018 - 2021",
+    location: "Kraków, Polska",
+    description: [
+      "XX",
+    ],
+    technologies: ["Java", "Matlab", "C++"]
+  }
 ];
 
 export const projects: Project[] = [
