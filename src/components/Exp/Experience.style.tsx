@@ -99,7 +99,7 @@ export const ExperienceCard = styled(Card)`
   
   &:hover {
     transform: none;
-    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 30px 70px rgba(37, 99, 235, 0.15);
   }
 `;
 

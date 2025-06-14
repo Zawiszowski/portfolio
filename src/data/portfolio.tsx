@@ -105,9 +105,19 @@ export const experiences: Experience[] = [
     period: "2018 - 2021",
     location: "Kraków, Polska",
     description: [
-      "XX",
+      "...",
     ],
     technologies: ["Java", "Matlab", "C++"]
+  },
+  {
+    company: "Ampleforth College",
+    position: "Math, Physics",
+    period: "2016",
+    location: "York, Great Britain",
+    description: [
+      "...",
+    ],
+    technologies: ["..."]
   }
 ];
 
@@ -140,7 +150,7 @@ export const projects: Project[] = [
   {
     title: 'General Signal Processing Apps',
     description: 'Processing danych czasowych w zależności od wymagań klientów min. : BMW, Volvo, Stellantis, Porsche.',
-    technologies: ['Python', 'PyQt', 'tkinter', 'Pandas', 'NumPy', 'Scikitlearn', '...']
+    technologies: ['Python', 'PyQt', 'tkinter', 'Pandas', 'NumPy', 'Scikitlearn', 'SciPy']
   }
 ];
 export const contactItems: ContactItem[] = [
