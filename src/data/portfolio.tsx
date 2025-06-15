@@ -55,7 +55,7 @@ export const experiences: Experience[] = [
     company: "BWI Poland Technologies",
     position: "Software Engineer",
     period: "2023 - now",
-    location: "Kraków, Polska",
+    location: "Kraków, Poland",
     description: [
       "Development of web applications for internal engineering purposes:",
       "Application for calculating physical characteristics of additional passive damper systems.",
@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     company: "BWI Poland Technologies",
     position: "Test Engineer",
     period: "2022 - 2023",
-    location: "Kraków, Polska",
+    location: "Kraków, Poland",
     description: [
       "Development of software primarily related to workflow automation and data processing",
       "Supervising passive damper testing within the field of Noise, Vibration, and Harshness",
@@ -90,7 +90,7 @@ export const experiences: Experience[] = [
     company: "EC Test Systems",
     position: "Application Engineer",
     period: "2020 - 2022",
-    location: "Kraków, Polska",
+    location: "Kraków, Poland",
     description: [
       "Technical support in selecting measurement technologies and proposing suitable solutions.",
       "Designing and presenting technological solutions for piezoelectric sensors in collaboration with PCB Piezoelectronics Europe",
@@ -103,8 +103,8 @@ export const experiences: Experience[] = [
   {
     company: "AGH University of Science and Technology",
     position: "Mechatronics",
-    period: "2018 - 2021",
-    location: "Kraków, Polska",
+    period: "2016 - 2021",
+    location: "Kraków, Poland",
     description: [
       "Laser Doppler vibrometry assisted by 3D vision–based object reconstruction",
       "Mobile application for vibration analysis with use of signal conditioner and vibration sensor",
@@ -114,7 +114,7 @@ export const experiences: Experience[] = [
   {
     company: "Ampleforth College",
     position: "Math, Physics",
-    period: "2016",
+    period: "2014",
     location: "York, Great Britain",
     description: [
       "...",
