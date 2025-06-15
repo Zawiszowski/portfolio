@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
   return (
     <Section id="projects" >
       <Container>
-        <SectionTitle>Projekty</SectionTitle>
+        <SectionTitle>Projects</SectionTitle>
         <Grid cols={1}>
           {projects.map((project, index) => (
             <ProjectCard key={index} style={{ animationDelay: `${index * 0.2}s` }}>
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
               </p>
               <div>
                 <strong style={{ color: '#333', marginBottom: '0.5rem', display: 'block' }}>
-                  Technologie:
+                  Technologies:
                 </strong>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                   {project.technologies.map((tech, techIndex) => (

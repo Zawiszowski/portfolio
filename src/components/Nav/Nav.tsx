@@ -24,27 +24,27 @@ const Navigation: React.FC = () => {
             </NavLink>
             <NavLink>
               <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>
-                O mnie
+                About me
               </a>
             </NavLink>
             <NavLink>
               <a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>
-                Umiejętności
+                Skills
               </a>
             </NavLink>
             <NavLink>
               <a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>
-                Doświadczenie
+                Experience
               </a>
             </NavLink>
             <NavLink>
               <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>
-                Projekty
+                Projekts
               </a>
             </NavLink>
             <NavLink>
               <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>
-                Kontakt
+                Contact
               </a>
             </NavLink>
           </NavLinks>

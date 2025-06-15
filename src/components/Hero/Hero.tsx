@@ -15,12 +15,12 @@ const Hero: React.FC = () => {
       <Container>
         <HeroContent>
           <Title>Software Engineer</Title>
-          <Subtitle>Specjalizuję się w Django, React, FastAPI, Python, JavaScript</Subtitle>
+          <Subtitle>Specialized in Django, React, FastAPI, Python, JavaScript</Subtitle>
           <p style={{ fontSize: '1.2rem', marginBottom: '2rem', opacity: 0.9 }}>
-            Tworzę nowoczesne aplikacje webowe w branży automotive
+            I build modern web applications in the automotive industry
           </p>
           <Button onClick={() => scrollToSection('projects')}>
-            Zobacz moje projekty
+            See my projects
           </Button>
         </HeroContent>
       </Container>

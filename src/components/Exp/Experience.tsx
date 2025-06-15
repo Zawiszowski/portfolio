@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
   return (
     <Section id="experience" bg="#f8fafc">
       <Container style={{maxWidth: "1600px"}}>
-        <SectionTitle>Doświadczenie</SectionTitle>
+        <SectionTitle>Experience</SectionTitle>
         <TimelineContainer style={{maxWidth: "1300px"}}>
           {experiences.map((exp, index) => (
             <TimelineItem 
@@ -74,7 +74,7 @@ const Experience: React.FC = () => {
                 
                 <div>
                   <strong style={{ color: '#333', marginBottom: '0.5rem', display: 'block' }}>
-                    Technologie:
+                    Technologies:
                   </strong>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                     {exp.technologies.map((tech, techIndex) => (

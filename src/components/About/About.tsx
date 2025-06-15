@@ -8,7 +8,7 @@ const About: React.FC = () => {
   return (
     <Section id="about" bg="#f8fafc">
       <Container>
-        <SectionTitle>O mnie</SectionTitle>
+        <SectionTitle>About me</SectionTitle>
         <AboutGrid>
           <AboutImage>
             👨‍💻

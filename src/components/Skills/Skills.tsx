@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
   return (
     <Section id="skills">
       <Container>
-        <SectionTitle>Umiejętności</SectionTitle>
+        <SectionTitle>Skills</SectionTitle>
         <Grid cols={3}>
           {skills.map((skill, index) => (
             <SkillCard key={index} style={{ animationDelay: `${index * 0.1}s` }}>
