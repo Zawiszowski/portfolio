@@ -175,7 +175,7 @@ Error generating stack: `+e.message+`
                   monitoring the condition and characteristics of top mounts,
                   generating characteristics for hydraulic end-of-stroke systems,
                   and time signal processing.`},{paragraph:`I constantly improve my skills by keeping up with the latest technology trends
-                  and implementing best practices in my projects. In my free time, I'm a homebrewer.`}]},c1=()=>R.jsx(Fa,{id:"about",bg:"#f8fafc",children:R.jsxs(je,{children:[R.jsx(eu,{children:"O mnie"}),R.jsxs(l1,{children:[R.jsx(e1,{children:"👨‍💻"}),R.jsxs("div",{children:[R.jsx("h3",{style:{fontSize:"1.8rem",marginBottom:"1rem",color:"#2563eb"},children:Z0.title}),Z0.about.map(i=>R.jsx("p",{style:{fontSize:"1.1rem",marginBottom:"1.5rem",lineHeight:"1.8"},children:i.paragraph}))]})]})]})}),f1=$(xr)`
+                  and implementing best practices in my projects. In my free time, I'm a homebrewer.`}]},c1=()=>R.jsx(Fa,{id:"about",bg:"#f8fafc",children:R.jsxs(je,{children:[R.jsx(eu,{children:"About me"}),R.jsxs(l1,{children:[R.jsx(e1,{children:"👨‍💻"}),R.jsxs("div",{children:[R.jsx("h3",{style:{fontSize:"1.8rem",marginBottom:"1rem",color:"#2563eb"},children:Z0.title}),Z0.about.map(i=>R.jsx("p",{style:{fontSize:"1.1rem",marginBottom:"1.5rem",lineHeight:"1.8"},children:i.paragraph}))]})]})]})}),f1=$(xr)`
   text-align: center;
   
   &:hover {
@@ -406,7 +406,7 @@ Error generating stack: `+e.message+`
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   }
-`;const x1=()=>{const i=r=>{const s=document.getElementById(r);s&&s.scrollIntoView({behavior:"smooth"})};return R.jsx(T1,{id:"home",children:R.jsx(je,{children:R.jsxs(z1,{children:[R.jsx(Ig,{children:"Software Engineer"}),R.jsx(Pg,{children:"Specjalizuję się w Django, React, FastAPI, Python, JavaScript"}),R.jsx("p",{style:{fontSize:"1.2rem",marginBottom:"2rem",opacity:.9},children:"I build modern web applications in the automotive industry"}),R.jsx(t1,{onClick:()=>i("projects"),children:"See my projects"})]})})})};$.textarea`
+`;const x1=()=>{const i=r=>{const s=document.getElementById(r);s&&s.scrollIntoView({behavior:"smooth"})};return R.jsx(T1,{id:"home",children:R.jsx(je,{children:R.jsxs(z1,{children:[R.jsx(Ig,{children:"Software Engineer"}),R.jsx(Pg,{children:"Specialized in Django, React, FastAPI, Python, JavaScript"}),R.jsx("p",{style:{fontSize:"1.2rem",marginBottom:"2rem",opacity:.9},children:"I build modern web applications in the automotive industry"}),R.jsx(t1,{onClick:()=>i("projects"),children:"See my projects"})]})})})};$.textarea`
   width: 100%;
   padding: 1rem;
   border: 2px solid #e5e7eb;
