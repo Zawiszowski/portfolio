@@ -57,7 +57,7 @@ export const experiences: Experience[] = [
     period: "2023 - obecnie",
     location: "Kraków, Polska",
     description: [
-      "Development of web applications for internal engineering purposes",
+      "Development of web applications for internal engineering purposes:",
       "Application for calculating physical characteristics of additional passive damper systems.",
       "Application for determining the production process capability, including automatic data retrieval from measurement machines.",
       "Application for tracking the condition and status of upper damper mounts used in NVH (Noise, Vibration, Harshness) testing, including image capture and stiffness characteristics.",
@@ -67,8 +67,6 @@ export const experiences: Experience[] = [
       "Leading software development projects in a two/three person team",
       "Development of desktop applications:",
       "Post-processing of data and generation of ready-to-use reports"
-
-
 
 
     ],
@@ -82,6 +80,8 @@ export const experiences: Experience[] = [
     description: [
       "Development of software primarily related to workflow automation and data processing",
       "Supervising passive damper testing within the field of Noise, Vibration, and Harshness",
+      "Tuning and configuring hydraulic test machines for damper performance and durability testing",
+      "Creating and maintaining detailed test procedures, reports, and technical documentation",
   
     ],
     technologies: ["Django", "React", "TypeScript", "Redis", "PostgreSQL", "Docker"]
@@ -95,6 +95,7 @@ export const experiences: Experience[] = [
       "Technical support in selecting measurement technologies and proposing suitable solutions.",
       "Designing and presenting technological solutions for piezoelectric sensors in collaboration with PCB Piezoelectronics Europe",
       "Development of a mobile application for data acquisition and basic analysis using a piezoelectric sensor with an integrated measurement feed.",
+      "Conducting trainings and workshops on signal processing and measurement techniques for engineering teams and clients"
 
     ],
     technologies: ["Java", "Android Studio"]
@@ -105,9 +106,10 @@ export const experiences: Experience[] = [
     period: "2018 - 2021",
     location: "Kraków, Polska",
     description: [
-      "...",
+      "Laser Doppler vibrometry assisted by 3D vision–based object reconstruction",
+      "Mobile application for vibration analysis with use of signal conditioner and vibration sensor",
     ],
-    technologies: ["Java", "Matlab", "C++"]
+    technologies: ["Java", "Android Studio", "Matlab", "C++"]
   },
   {
     company: "Ampleforth College",
